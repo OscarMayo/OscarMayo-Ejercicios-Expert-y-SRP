@@ -1,0 +1,86 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../Library/Library.csproj",
+      "msbuildProject": "../Library/Library.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Library >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Oscar Mayo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\Oscar Mayo\\Desktop\\Ejercicios\\OscarMayo-Ejercicios-Expert-y-SRP\\Ejercicio 1\\src\\Program\\Expert_SRP.csproj",
+      "projectName": "Expert_SRP",
+      "projectPath": "c:\\Users\\Oscar Mayo\\Desktop\\Ejercicios\\OscarMayo-Ejercicios-Expert-y-SRP\\Ejercicio 1\\src\\Program\\Expert_SRP.csproj",
+      "packagesPath": "C:\\Users\\Oscar Mayo\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Oscar Mayo\\Desktop\\Ejercicios\\OscarMayo-Ejercicios-Expert-y-SRP\\Ejercicio 1\\src\\Program\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Oscar Mayo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "c:\\Users\\Oscar Mayo\\Desktop\\Ejercicios\\OscarMayo-Ejercicios-Expert-y-SRP\\Ejercicio 1\\src\\Library\\Library.csproj": {
+              "projectPath": "c:\\Users\\Oscar Mayo\\Desktop\\Ejercicios\\OscarMayo-Ejercicios-Expert-y-SRP\\Ejercicio 1\\src\\Library\\Library.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
