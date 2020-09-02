@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace SRP
 {
@@ -16,6 +16,8 @@ namespace SRP
             this.Autor = autor;
             this.Codigo = codigo;
         }
+        //se debería de crear otra clase que trabaje con ésta para cumplir 
+        //el almacenamiento de libros llamada Biblioteca, por ejemplo.
         public void AlmacenarLibro(String sector, String estante)
         {
             this.SectorBiblioteca = sector;
