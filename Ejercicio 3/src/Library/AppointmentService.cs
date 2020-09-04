@@ -5,6 +5,8 @@ namespace Library
 {
     public class AppointmentService
     {
+        //No se tiene en cuenta la validez de los atributos, tampoco se tiene en cuenta s se quiere modificar algunos de los atributos entregados.
+        //debería de existir una clase que cree y valide/modifique los atributos, luego, esta clase que crea la ficha. Incumple Expert y SRP.
         public static string CreateAppointment(string name, string id, string phoneNumber, DateTime date, string appoinmentPlace, string doctorName)
         {
             StringBuilder stringBuilder = new StringBuilder("Scheduling appointment...\n");
