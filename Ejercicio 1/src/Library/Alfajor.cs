@@ -10,7 +10,7 @@ namespace Expert_SRP
             this.PrecioDulce = precioDulce;
             this.PrecioMasa = precioMasa;
         }
-        public Double PrecioDulce {get;set;}
-        public Double PrecioMasa {get; set;}
+        private Double PrecioDulce {get;set;}
+        private Double PrecioMasa {get; set;}
     }
 }
