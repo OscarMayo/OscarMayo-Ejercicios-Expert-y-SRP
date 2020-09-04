@@ -4,13 +4,14 @@ namespace Expert_SRP
 {
     public class Alfajor 
     {
-        
+        private double precioMasa;
+        private double precioDulce;
         public Alfajor(double precioMasa, double precioDulce)
         {
             this.PrecioDulce = precioDulce;
             this.PrecioMasa = precioMasa;
         }
-        private Double PrecioDulce {get;set;}
-        private Double PrecioMasa {get; set;}
+        public Double PrecioDulce {get; set;}
+        public Double PrecioMasa {get; set;}
     }
 }
