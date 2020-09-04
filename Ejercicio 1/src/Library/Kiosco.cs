@@ -9,6 +9,8 @@ namespace Expert_SRP
             Double pesos = ConvertirAPesos(dinero, moneda);
             return pesos >= a.PrecioDulce + a.PrecioMasa;
         }
+        //ConvertirAPesos no debería estar en esta clase, esta tiene la información necesaria, pero también limita a este método, tendiendo a incumplir con el principio SRP.
+        //No se cumple el Expert, las responsabilidades de esta clase también dependen de la clase alfajor, la cual tampoco se encuentra encapsulada correctamente.
         private Double ConvertirAPesos(Double dinero, String moneda)
         {
             if (moneda.Equals("U$S")) 
